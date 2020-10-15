@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: deborah-digges/new-pull-request-comment-action@v1.8
+      - uses: deborah-digges/new-pull-request-comment-action@v1.9
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
 
